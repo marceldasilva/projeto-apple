@@ -1,2 +1,2 @@
 # projeto-apple
- Projeto curiosidades sobre aApple 
+ Projeto curiosidades sobre Apple 
