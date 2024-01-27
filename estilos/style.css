@@ -64,14 +64,13 @@ body, html {
     padding: 10px;
 }
 
-#formulario > form > #texto {
-    margin: 10px 0px;
-    font-size: 0.8em;
-}
-
 #formulario > form > h1 {
     text-align: center;
     font-size: 1.6em;
     margin-top: 200px;
 }
 
+#formulario > form > #texto {
+    margin: 10px 0px;
+    font-size: 0.8em;
+}
