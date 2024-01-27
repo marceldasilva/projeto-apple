@@ -14,8 +14,9 @@
 :root {
     --cor0: #B4B4B4;
     --cor1: #B3BFCB;
-    --cor2: black;
-    --cor3: white;
+    --cor2: #002EAD;
+    --cor3: black;
+    --cor4: white;
 }
 
 body, html {
@@ -35,7 +36,6 @@ body, html {
     background-position: center center;
     height: 200px;
     width: 250px;
-    padding: 5px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     z-index: 1;
@@ -43,14 +43,13 @@ body, html {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -127%);
+    transform: translate(-50%, -130%);
 }
 
 #formulario {
     background-color: var(--cor1);
     width: 250px;
     height: 520px;
-    padding: 5px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     overflow: hidden;
@@ -61,6 +60,18 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
-h1 {
+#formulario > form {
+    padding: 10px;
+}
+
+#formulario > form > #texto {
+    margin: 10px 0px;
+    font-size: 0.8em;
+}
+
+#formulario > form > h1 {
+    text-align: center;
+    font-size: 1.6em;
     margin-top: 200px;
 }
+
