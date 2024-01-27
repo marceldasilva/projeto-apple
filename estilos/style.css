@@ -17,3 +17,31 @@
     --cor2: black;
     --cor3: white;
 }
+
+body, html {
+    width: 100vw;
+    height: 100vw;
+    box-sizing: border-box;
+}
+
+#login {
+    position: relative;
+}
+
+#imagem {
+    display: block;
+    background-image: url(../imagens/login.png);
+}
+
+#formulario {
+    background-color: var(--cor1);
+    width: 250px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
