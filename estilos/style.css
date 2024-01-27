@@ -96,6 +96,10 @@ p {
     transform: translateY(-4px);
 }
 
+.campo > input:focus-within {
+    background-color: var(--cor4);
+}
+
 .campo > label {
     display: none;
 }
