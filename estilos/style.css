@@ -82,7 +82,7 @@ body, html {
 #formulario > form > div {
     background-color: var(--cor2);
     width: 100%;
-    padding: 0px;
+    margin: 5px 0px;
 }
 
 #formulario > form > div > span {
