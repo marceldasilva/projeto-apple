@@ -74,3 +74,59 @@ body, html {
     margin: 10px 0px;
     font-size: 0.8em;
 }
+
+#formulario > form > div > label {
+    display: none;
+}
+
+#formulario > form > div {
+    background-color: var(--cor2);
+    width: 100%;
+    padding: 0px;
+}
+
+#formulario > form > div > span {
+    padding: 5px;
+}
+
+#formulario > form > .botoes {
+    background-color: var(--cor2);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#formulario > form > .botoes:hover {
+    background-color: var(--cor1);
+    border: 1px solid var(--cor2);
+}
+
+#formulario > form > .botoes > a {
+    color: var(--cor4);
+    text-decoration: none;
+}
+
+#formulario > form > .botoes > a:hover {
+    color: var(--cor2);
+}
+
+#formulario > form > #botao {
+    background-color: var(--cor1);
+    border: 1px solid var(--cor2);
+}
+
+#formulario > form > #botao:hover {
+    background-color: var(--cor4);
+    color: var(--cor4);
+}
+
+#formulario > form > #botao > a {
+    color: var(--cor2);
+}
+
+#formulario > form > #botao > a:hover {
+    color: var(--cor2);
+}

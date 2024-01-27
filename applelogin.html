@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Apple</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
@@ -18,18 +19,24 @@
                 <h1>Login</h1>
                 <p id="texto">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder ficar por dentro das curiosidades da Apple.</p>
 
-                <p>
+                <div>
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
                     <input type="email" name="email" id="iemail" required minlength="10" maxlength="40" placeholder="seu email">
                     <label for="iemail">Email:</label>
-                </p>
-                <p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        key
+                        </span>
                     <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" placeholder="sua senha">
                     <label for="isenha">Senha:</label>
-                </p>
+                    </div>
                 <p class="botoes">
                     <a href="apple.html">Entrar</a>
                 </p>
-                <p class="botoes">
+                <p id="botao" class="botoes">
                     <a href="#">Esqueci a senha</a>
                 </p>
             </form>
