@@ -83,10 +83,18 @@ body, html {
     background-color: var(--cor2);
     width: 100%;
     margin: 5px 0px;
+    border-radius: 5px;
 }
 
 #formulario > form > div > span {
     padding: 5px;
+    width: 40px;
+}
+
+#formulario > form > div > input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
 }
 
 #formulario > form > .botoes {
