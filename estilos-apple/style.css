@@ -59,6 +59,7 @@ h1 {
 
 .principal > aside > p {
     font-size: 1em;
+    line-height: 1.8em;
     padding: 10px;
 }
 
@@ -83,6 +84,7 @@ h1 {
 
 .principal > p {
     font-size: 1em;
+    line-height: 1.8em;
     margin-bottom: 20px;
 }
 
