@@ -30,7 +30,8 @@ nav > .burguer > a {
 
 nav > .burguer > span {
     display: block;
-    margin: auto;
+    text-align: center;
+    font-size: 2em;
     color: var(--cor2);
 }
 
