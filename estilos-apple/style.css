@@ -35,14 +35,14 @@ nav > .burguer > span {
 }
 
 h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-align: center;
     margin-bottom: 15px;
 }
 
 .principal {
     font-family: 'open', Arial, Helvetica, sans-serif; 
-    width: 60vw;
+    width: 80vw;
     margin: auto;
 }
 
@@ -53,7 +53,7 @@ h1 {
 }
 
 .principal > aside > h3 {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -65,30 +65,31 @@ h1 {
 .principal > aside > img {
     display: block;
     margin: auto;
-    width: 60vw;
+    width: 80vw;
+    margin-bottom: 10px;
 }
 
 .principal > h2 {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.4em;
     margin-bottom: 10px;
 }
 
 .principal > h3 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-bottom: 10px;
     color: var(--cor2);
 }
 
 .principal > p {
-    font-size: 0.9em;
+    font-size: 1em;
     margin-bottom: 20px;
 }
 
 .principal > img {
     display: block;
     margin: auto;
-    width: 60vw;
+    width: 80vw;
     margin-bottom: 10px;
 }
 
