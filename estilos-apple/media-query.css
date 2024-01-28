@@ -50,6 +50,10 @@
         width: 500px;
     }
 
+    .principal > aside {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+    }
+
     .principal > img {
         width: 500px;
     }
@@ -130,6 +134,10 @@
     
     .principal {
         width: 800px;
+    }
+    
+    .principal > aside {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
     }
 
     .principal > img {
