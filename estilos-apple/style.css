@@ -15,48 +15,97 @@
 }
 
 @font-face {
-    font-family: 'open', Arial, Helvetica, sans-serif;
+    font-family: 'open';
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-header > nav {
+nav {
     background-color: var(--cor1);
-    padding: 5px;
+    padding: 10px;
 }
 
-header > nav > a {
+nav > .burguer > a {
     display: none;
 }
 
-header > nav > span {
+nav > .burguer > span {
     display: block;
     margin: auto;
+    color: var(--cor2);
+}
+
+h1 {
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .principal {
-    font-family: var('open');
-    width: 300px;
+    font-family: 'open', Arial, Helvetica, sans-serif; 
+    width: 60vw;
     margin: auto;
 }
 
 .principal > aside {
     background-color: var(--cor5);
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .principal > aside > h3 {
+    font-size: 1em;
     text-align: center;
 }
 
 .principal > aside > p {
+    font-size: 1em;
     padding: 10px;
 }
 
-h1 {
-    margin-bottom: 15px;
+.principal > aside > img {
+    display: block;
+    margin: auto;
+    width: 60vw;
+}
+
+.principal > h2 {
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.principal > h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: var(--cor2);
+}
+
+.principal > p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.principal > img {
+    display: block;
+    margin: auto;
+    width: 60vw;
+    margin-bottom: 10px;
 }
 
 footer {
     display: block;
-    margin: auto;
+    text-align: center;
+    padding: 5px;
+    background-color: var(--cor3);
+    color: var(--cor4);
+}
+
+footer > a {
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+footer > a:hover {
+    text-decoration: underline;
 }
