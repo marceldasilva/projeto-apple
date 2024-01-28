@@ -20,6 +20,7 @@
         text-align: center;
         font-family: 'open', Arial, Helvetica, sans-serif;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        padding: 25px;
         margin-bottom: 10px;
     }
 
@@ -27,7 +28,7 @@
         display: none;
     } 
 
-    nav > .burguer > a {
+    .burguer > menu > a {
         display: inline-block;
         text-decoration: none;
         font-weight: bold;
@@ -37,7 +38,7 @@
         margin: 0px 10px;
     }
 
-    nav > .burguer > a:hover {
+    .burguer > menu > a:hover {
         background-color: var(--cor5);
     }
 
@@ -84,6 +85,7 @@
         text-align: center;
         font-family: 'open', Arial, Helvetica, sans-serif;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        padding: 25px;
         margin-bottom: 10px;
     }
 
@@ -91,7 +93,7 @@
         display: none;
     } 
 
-    nav > .burguer > a {
+    .burguer > menu > a {
         display: inline-block;
         text-decoration: none;
         font-weight: bold;
@@ -101,7 +103,7 @@
         margin: 0px 10px;
     }
 
-    nav > .burguer > a:hover {
+    .burguer > menu > a:hover {
         background-color: var(--cor5);
     }
 

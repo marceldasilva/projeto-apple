@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="estilos-apple/style.css">
     <link rel="stylesheet" href="estilos-apple/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-            <nav>
+            <nav >
                 <div class="burguer">
-                    <span class="material-symbols-outlined">menu</span>
-                    <a href="#">Notícias</a>
-                    <a href="#">Tecnologia</a>
-                    <a href="#">e-Sports</a>
-                    <a href="#">Esportes</a>
+                    <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+                    <menu id="itens">
+                        <a href="#">Notícias</a>
+                        <a href="#">Tecnologia</a>
+                        <a href="#">e-Sports</a>
+                        <a href="#">Esportes</a>
+                    </menu>
                 </div>
             </nav>
     </header>
